@@ -21,7 +21,7 @@ class Player(_name: String,
             field = value.trim()
         }
     val hometown = delEscape(selectHometown())
-    private fun selectHometown() = File("./src/main/resources/data/towns.txt")
+    private fun selectHometown() = File("./main/resources/data/towns.txt")
         .readText()
         .split("\n")
         .random()

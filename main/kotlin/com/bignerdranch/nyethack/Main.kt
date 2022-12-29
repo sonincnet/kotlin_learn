@@ -6,7 +6,8 @@ fun main() {
     // Состояние игрока
 
     player.status().run(::println)
-
 //    player.printVal()
+
+//  println("Hello")
 
 }
